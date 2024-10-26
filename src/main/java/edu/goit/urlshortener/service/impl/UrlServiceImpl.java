@@ -66,7 +66,7 @@ public class UrlServiceImpl implements UrlService {
             return url.getNativeLink();
         }
 
-        return "Your link has expired:" + url.getShortLink();
+        return "Your link has expired: " + url.getShortLink();
     }
 
     public ShortLinkResponse getShortLinkDto(String shortLink) {
